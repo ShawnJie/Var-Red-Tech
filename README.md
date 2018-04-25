@@ -1,5 +1,5 @@
 # Shawn
-This code is based on Alfonsi’s Framework about implicit Euler scheme of CIR process. 
+This code is based on Alfonsi’s Framework (2012) about implicit Euler scheme of CIR process. 
 
 I use Monte Carlo Methods to compute zero-coupon bond with CIR process. Then I apply antithetic variates, latin hypercube sampling (one derivation on multi-dimension case of stratified sampling) and importance sampling to the simulation. I caculate mean, variance and time cost for these four methods (including plain Monte Carlo) and compare the results.
 
